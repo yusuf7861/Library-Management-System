@@ -1,1 +1,12 @@
-spring.application.name=Library Management System
+spring:
+  application:
+    name: Library Management System
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lms
+    username: root
+    password: yusuf@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
